@@ -1,0 +1,37 @@
+.bodyTop{
+	margin-top:100px;
+	border-radius: 25px;
+	width: 100%;
+	height: 95px;
+	background-color:#c44444;
+}
+.btn-primary{
+	color:black !important;
+	background-color:white !important;
+	border-color:white !important;
+	border-radius: 0px !important;
+	display:inline-block;
+	background-color: white;
+}
+.picker{
+	margin-top:7%;
+}
+.formalClass{
+	display:inline-block;
+}
+.hederLine{
+margin:0 30% 0 30%;
+}
+.greeting{
+	opacity:0;
+	margin-top:25px;
+	margin-left: 50px;
+}
+#button{
+	background: #337ab7;
+	color:tan;
+}
+#button:hover{
+	background: #2e6da4;
+	color:white;
+}

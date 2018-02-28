@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<title>color</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="hederLine">
+		<p><b>Enter your name and surname please: </b>
+		</br>
+			<input id="name" type="text" size="50">
+		</p>
+		<button id="button">
+			register
+		</button>
+	</div>
+	<div id="hello" class="greeting">	      <!-- opacity 0 before form above will not be fill ==> JS -->
+		<p>nice to meet U, </p>           <!-- opacity 0 before form above will not be fill ==> JS -->
+	</div>
+	<div class="workArea">
+	<div class="bodyTop col-md-10"> 
+		<div type="button" onclick="setColor()" class="btn btn-primary">
+			-SET COLORSIDE-
+		</div>
+	</div>
+	</div>
+		<div class="picker col-md-2">set color of header please.</br>
+			<input class="pickerCol" type="color">
+			<form class="formalClass" action="color">color code:</form>
+			<input type="text" size="10">
+	    </div>
+	</div>
+	    <div class="result"></div>
+	<script src = "code.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
